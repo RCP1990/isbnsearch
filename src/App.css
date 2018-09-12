@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css?family=Orbitron|Roboto');
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.navbar {
+  min-height: 20px;
+  width: 100%;
+  background-image:
+    radial-gradient(
+      circle at top right,#f06d06,
+      #fa9748,
+      #f06d06
+  );
+background-blend-mode: multiply;
+padding-top: 5px;
+padding-bottom: 10px;
+border-bottom: 2px #f06d06 solid;
+}
+
+.expanded {
+  min-height: 45px;
+}
+
+input {
+    border: 0;
+    padding: 5px;
+      background: #424242; 
+    color: #FFF;
+    font-size: .8rem;
+    display: inline-block;
+    width: 100%;
+}
+
+.stars {
+  margin: auto;
+}
+
+span {
+    display: block;
+    overflow: hidden;
+    padding-right:10px;
+}
+
+label {
+    font-size: 1rem;
+    opacity: .5;
+    color: #fff;
+       background-color: transparent;
+        padding: 10px;
+}
+
+.app-name {
+     font-family: 'Orbitron', sans-serif;
+    font-size: 1.5rem;
+    top:10px;
+    margin-left: 10px;
+    color: #FFF;
+    text-align: center;
+    display: initial;
+}
+
+.search-position {
+  float: right;
+  height: 30px;
+}
+
+.search-position input {
+    width: 200px;
+    background-color: rgba(255,255,255,0.4);
+}
+
+.right {
+  float: right;
+  height: 100%;
+  width:63%;
+}
+
+.right input {
+  text-align: center;
+ 
+  margin-bottom: 11px;
+}
+
+.left {
+  float: left;
+    height: 100%;
+}
+
+.left label {
+  display: block;
+  font-size: 1em;
+  padding: 5px;
+  color: black;
+  line-height: 26px;
+  font-weight: bold;
+}
+
+.cta {
+  float:right;
+    margin-right: 8px;
+    margin-left: 8px;
+    margin-top: 4px;
+    color: white;
+
+}
+
+.container-fluid{
+  text-align: center;
+  margin: 0 auto;
+  padding: 1em;
+}
+
+.cover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+width: 128px;
+height: 220px;
+margin: auto;
+    background: rgba(0,0,0,.5);
+    background-size:100%;
+    background-repeat: no-repeat;
+}
+
+.nfo {
+  max-width: 800px;
+  margin: auto;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    background-image:
+    radial-gradient(
+      circle at top right,
+      #adadad,
+      #cecece,#adadad
+  );
+
+background-blend-mode: multiply;
+  height:300px;
+  padding: 10px;
+  padding-right: 18px;
+}
